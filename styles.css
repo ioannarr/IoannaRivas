@@ -1,0 +1,173 @@
+*{
+    font-weight: 300;
+    font-family: sysem-ui;
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+}
+
+/* 
+  Display */
+p{
+    text-align: justify;
+}
+
+.exp h1{
+    text-align: center;
+    padding-top: 3%;
+}
+
+article{
+    padding: 2%;
+}
+
+.main-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+  }
+
+aside{
+    background-color:#d0cbb7;
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    color: black;
+    flex-basis: 30%;
+    padding: 2%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+aside section h3:first-child{
+    border-bottom: 1px solid grey;
+}
+aside h3{
+    font-weight: 700;
+    text-align: center;
+}
+
+
+h1,h2,h3,h4{
+    text-transform:uppercase;
+    font-weight:bolder; 
+}
+
+ul{
+    list-style-type: square;
+    padding: 1%;
+}
+
+#profile{
+    margin: 0%;
+}
+#profile img{
+    border-radius: 10px;
+}
+
+main{
+    background-color: #eeebd3;
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    color: #000;
+    flex-basis: 80%;
+    margin: auto;
+    padding: 2%;
+}
+
+main section h1:first-child{
+    font-weight: 700;
+}
+
+.hero{
+    background-color: 	#f1efdb;
+    box-shadow: 3px 3px 3px #f1efdb inset;
+    padding: 5% 3% 5%;
+
+}
+
+.title{
+    text-align: center;
+    background-color: #eeebd3;
+    padding: 5%;
+    
+}
+
+.hero h2{
+    color: black;
+    font-weight:300px;
+    border-top: 2px solid black;
+    padding-top: 20px;
+}
+
+.hero h1{
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px gray
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    height: 12px;
+}
+
+#icon{
+    font-size: 15px;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.experiencesection{
+    background-color: 	#f1efdb;
+    box-shadow: 3px 3px 3px #f1efdb inset;
+    padding-left:3% ;
+}
+
+.academicsection{
+    background-color: 	#f1efdb;
+    box-shadow: 3px 3px 3px #f1efdb inset;
+    padding-left: 3%;
+}
+
+.references{
+    margin: 3%;
+    background-color: 	#f1efdb;
+    box-shadow: 3px 3px 3px #f1efdb inset;
+    padding-left: 3%;
+}
+
+.contentsection{
+    background-color: 	#f1efdb;
+    box-shadow: 3px 3px 3px #f1efdb inset;
+  
+}
+.contentsection li{
+    text-decoration: none;
+}
+
+table.customTable {
+    margin: 3%;
+    width: 90%;
+    background-color: #f1efdb;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: #f1efdb;
+    border-style: solid;
+    color: black;
+  }
+  
+  table.customTable th{
+    font-weight: 500;
+    text-transform:uppercase;
+  }
+
+  table.customTable td, table.customTable th {
+    border-width: 1px;
+    border-color: #f1efdb;
+    border-style: solid;
+    padding: 3px;   
+  }
+  
+  table.customTable thead {
+    background-color: #D4D0BE;
+    font-weight: 500;
+  }
+
