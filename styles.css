@@ -137,6 +137,7 @@ main section h1:first-child{
 .contentsection{
     background-color: 	#f1efdb;
     box-shadow: 3px 3px 3px #f1efdb inset;
+    padding: 3%;
   
 }
 .contentsection li{
