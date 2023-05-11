@@ -1,4 +1,4 @@
-# My Resmume
+# My Resume
 
 - Within this repo lies the code of my digital Resume. 
 - At this point it lacks of responsiveness but it is in the work!
