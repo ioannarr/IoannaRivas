@@ -11,7 +11,7 @@ For small resolutions or a max-wdth of 768px I changed the flex direction to col
 
 - Data manipulation excercises using Python.
 - Creating a Portfolio Site.
-- Making this beautiful CV responsive layout.
+- Learning some more SQL
 - Learning R and data Visualization Tools
 
 ...stay tuned.
