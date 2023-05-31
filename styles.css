@@ -53,7 +53,6 @@ h1,h2,h3,h4{
 
 ul{
     list-style-type: square;
-    padding: 1%;
 }
 
 #profile{
@@ -67,7 +66,7 @@ main{
     background-color: #eeebd3;
     box-shadow: 0 10px 25px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     color: #000;
-    flex-basis: 80%;
+    flex-basis: 70%;
     margin: auto;
     padding: 2%;
 }
@@ -137,7 +136,6 @@ main section h1:first-child{
 .contentsection{
     background-color: 	#f1efdb;
     box-shadow: 3px 3px 3px #f1efdb inset;
-    padding: 3%;
   
 }
 .contentsection li{
@@ -171,4 +169,21 @@ table.customTable {
     background-color: #D4D0BE;
     font-weight: 500;
   }
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+    aside {
+        order: 1;
+    }
+    .main-content {
+        order: 2;
+    }
+}
+
 
